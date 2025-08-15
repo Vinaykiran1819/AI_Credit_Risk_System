@@ -76,7 +76,7 @@ A running PostgreSQL instance.
 ## 1. Backend Setup
 Bash
 
-## Clone the repository
+### Clone the repository
 ```
 git clone https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git
 cd AI_Retail_Loan_System
