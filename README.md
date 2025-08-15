@@ -7,13 +7,13 @@ Traditional loan underwriting is a manual, time-consuming, and often inconsisten
 The application orchestrates a workflow of specialized AI agents to ingest customer applications, enrich them with credit bureau data, and generate a clear, explainable recommendation. The final output is presented in a professional dashboard, empowering underwriters to make faster, more informed, and more consistent final decisions. This project demonstrates a production-ready MVP that successfully balances automation with essential human oversight.
 
 ## Key Features
-End-to-End Automation: A seamless, fully automated workflow from the moment a customer submits their application to the final analysis being ready for an underwriter.
+- End-to-End Automation: A seamless, fully automated workflow from the moment a customer submits their application to the final analysis being ready for an underwriter.
 
-Explainable AI (XAI): The system moves beyond opaque "black box" scores. It provides a detailed narrative summary and visual charts that explain why the AI made its recommendation, highlighting the key factors that influenced the decision.
+- Explainable AI (XAI): The system moves beyond opaque "black box" scores. It provides a detailed narrative summary and visual charts that explain why the AI made its recommendation, highlighting the key factors that influenced the decision.
 
-Human-in-the-Loop (HITL) by Design: The platform is built to assist, not replace, human expertise. The intuitive underwriter dashboard provides all the necessary tools for a human to perform a final review and make the ultimate decision.
+- Human-in-the-Loop (HITL) by Design: The platform is built to assist, not replace, human expertise. The intuitive underwriter dashboard provides all the necessary tools for a human to perform a final review and make the ultimate decision.
 
-Modular & Scalable Architecture: Built with a modern microservices-style approach, the system is reliable, easy to maintain, and ready to be deployed in a cloud environment.
+- Modular & Scalable Architecture: Built with a modern microservices-style approach, the system is reliable, easy to maintain, and ready to be deployed in a cloud environment.
 
 ## Live Demo Screenshots
 ### Customer Application Form
@@ -29,36 +29,36 @@ The final analysis is presented in a professional dashboard with a risk gauge, f
 ## System Architecture
 The application is built on a robust, three-tier architecture that separates concerns for scalability and maintainability.
 
-Frontend (User Interface): A responsive web application built in React. It serves both the customer application form and the internal underwriter dashboard.
+- Frontend (User Interface): A responsive web application built in React. It serves both the customer application form and the internal underwriter dashboard.
 
-Backend (API Server): A high-performance API built with Python and FastAPI. It handles all requests, manages the database, and serves as the communication hub.
+- Backend (API Server): A high-performance API built with Python and FastAPI. It handles all requests, manages the database, and serves as the communication hub.
 
-AI Core (Agentic Workflow): The "brain" of the system, built with LangGraph. It orchestrates the sequence of AI agents that process each application.
+- AI Core (Agentic Workflow): The "brain" of the system, built with LangGraph. It orchestrates the sequence of AI agents that process each application.
 
 ## AI Agent Workflow
 The AI Core employs a multi-agent architecture where each agent is a small, specialized program with a single, well-defined task. A supervisor agent directs the application data through this workflow, ensuring each step is completed in the correct order.
 
 Workflow Sequence: Data Ingestion -> Risk Scoring -> Decision Making -> Explainability -> Compliance
 
-**Supervisor:** The "project manager" of the workflow; directs the application to the correct agent at each step.
+1. **Supervisor Agent:** The "project manager" of the workflow; directs the application to the correct agent at each step.
 
-**Data Ingestion Agent:** Takes the initial application, validates it, and automatically enriches it by querying the mock credit bureau database using the applicant's SSN.
+2. **Data Ingestion Agent:** Takes the initial application, validates it, and automatically enriches it by querying the mock credit bureau database using the applicant's SSN.
 
-**Risk Scoring Agent:** Uses a pre-trained XGBoost model to calculate a precise probability of default.
+3. **Risk Scoring Agent:** Uses a pre-trained XGBoost model to calculate a precise probability of default.
 
-**Decision Making Agent:** Applies business rules to the risk score to determine an initial decision (Approved, Rejected, or Manual Review).
+4. **Decision Making Agent:** Applies business rules to the risk score to determine an initial decision (Approved, Rejected, or Manual Review).
 
-**Explainability Agent:** Analyzes the model's output using SHAP to generate the structured JSON for the visual dashboard and the detailed narrative summary.
+5. **Explainability Agent:** Analyzes the model's output using SHAP to generate the structured JSON for the visual dashboard and the detailed narrative summary.
 
-**Compliance Agent:** The final checkpoint; logs the final AI decision for auditing and regulatory purposes.
+6. **Compliance Agent:** The final checkpoint; logs the final AI decision for auditing and regulatory purposes.
 
 ## Technology Stack
-AI & Workflow: LangChain & LangGraph
-Machine Learning: XGBoost, SHAP, scikit-learn
-Backend: Python, FastAPI
-Frontend: React, Vite, Tailwind CSS
-Database: PostgreSQL
-Cloud Storage: Azure Blob Storage
+- AI & Workflow: LangChain & LangGraph
+- Machine Learning: XGBoost, SHAP, scikit-learn
+- Backend: Python, FastAPI
+- Frontend: React, Vite, Tailwind CSS
+- Database: PostgreSQL
+- Cloud Storage: Azure Blob Storage
 
 ## Getting Started: How to Run Locally
 Follow these steps to set up and run the project on your local machine.
