@@ -7,7 +7,7 @@ Traditional loan underwriting is a manual, time-consuming, and often inconsisten
 The application orchestrates a workflow of specialized AI agents to ingest customer applications, enrich them with credit bureau data, and generate a clear, explainable recommendation. The final output is presented in a professional dashboard, empowering underwriters to make faster, more informed, and more consistent final decisions. This project demonstrates a production-ready MVP that successfully balances automation with essential human oversight.
 
 ## Key Features
--- End-to-End Automation: A seamless, fully automated workflow from the moment a customer submits their application to the final analysis being ready for an underwriter.
+End-to-End Automation: A seamless, fully automated workflow from the moment a customer submits their application to the final analysis being ready for an underwriter.
 
 Explainable AI (XAI): The system moves beyond opaque "black box" scores. It provides a detailed narrative summary and visual charts that explain why the AI made its recommendation, highlighting the key factors that influenced the decision.
 
