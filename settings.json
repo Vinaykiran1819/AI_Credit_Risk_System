@@ -1,0 +1,9 @@
+{
+  "decision_thresholds": {
+    "approve_below": 0.3,
+    "decline_above": 0.7
+  },
+  "mock_data_defaults": {
+    "int_rate": 14
+  }
+}

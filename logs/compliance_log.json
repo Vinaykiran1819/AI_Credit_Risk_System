@@ -1,0 +1,2433 @@
+[
+    {
+        "applicant_id": "test-user-123",
+        "decision": "Rejected",
+        "explanation": "Loan rejected due to a high-risk score of 551.",
+        "risk_score": 551,
+        "log_timestamp": "2025-08-04T18:33:54.793745"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 25000.0,
+            "term": "60 months",
+            "int_rate": 15.27,
+            "installment": 600.23,
+            "grade": "C",
+            "emp_length": "< 1 year",
+            "home_ownership": "RENT",
+            "annual_inc": 43000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 25.5,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 12345.0,
+            "revol_util": 70.1,
+            "total_acc": 20
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9992861151695251,
+        "explanation": "Loan rejected based on a predicted default risk of 99.93%. The risk level exceeds our acceptable range.",
+        "log_timestamp_utc": "2025-08-05T21:03:52.675168"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 25000.0,
+            "term": "60 months",
+            "int_rate": 15.27,
+            "installment": 600.23,
+            "grade": "C",
+            "emp_length": "< 1 year",
+            "home_ownership": "RENT",
+            "annual_inc": 43000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 25.5,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 12345.0,
+            "revol_util": 70.1,
+            "total_acc": 20
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9992861151695251,
+        "explanation": "Loan rejected based on a predicted default risk of 99.93%. The risk level exceeds our acceptable range.",
+        "log_timestamp_utc": "2025-08-05T21:05:04.709659"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 25000.0,
+            "term": "60 months",
+            "int_rate": 15.27,
+            "installment": 600.23,
+            "grade": "C",
+            "emp_length": "< 1 year",
+            "home_ownership": "RENT",
+            "annual_inc": 43000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 25.5,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 12345.0,
+            "revol_util": 70.1,
+            "total_acc": 20
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9992861151695251,
+        "explanation": "Loan rejected based on a predicted default risk of 99.93%. The risk level exceeds our acceptable range.",
+        "log_timestamp_utc": "2025-08-05T21:08:03.085369"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "Loan rejected based on a predicted default risk of 99.97%. The risk level exceeds our acceptable range.",
+        "log_timestamp_utc": "2025-08-05T21:10:59.748917"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "Loan rejected based on a predicted default risk of 99.97%. The risk level exceeds our acceptable range.",
+        "log_timestamp_utc": "2025-08-06T16:04:03.358407"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Approved",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "The application was **approved** with a predicted default risk of **99.97%**. The primary factors that increased the risk score were: **Interest Rate, Home Ownership Own, Home Ownership Rent**. Favorable factors included: **Employment Length, Loan Amount**.",
+        "log_timestamp_utc": "2025-08-06T16:29:15.392720"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "The application was **rejected** with a predicted default risk of **99.97%**. The primary factors that increased the risk score were: **Interest Rate, Home Ownership Own, Home Ownership Rent**. Favorable factors included: **Employment Length, Loan Amount**.",
+        "log_timestamp_utc": "2025-08-06T16:30:59.957093"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**Decision Summary**\nThe application was **REJECTED** with a predicted default risk of **99.97%**.\n\n**Key Factors Influencing this Decision:**\n- **Interest Rate** (This factor was present): increased the risk, accounting for **11.5%** of the decision's weight.\n- **Home Ownership: Own** (This factor was present): increased the risk, accounting for **11.0%** of the decision's weight.\n- **Home Ownership: Rent** (This factor was present): increased the risk, accounting for **10.5%** of the decision's weight.\n- **Home Ownership: Mortgage** (This factor was present): increased the risk, accounting for **9.6%** of the decision's weight.",
+        "log_timestamp_utc": "2025-08-06T16:36:12.419051"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**Decision Summary**\nThe application was **REJECTED** with a predicted default risk of **99.97%**.\n\n**Key Factors Influencing this Decision:**\n- **Interest Rate** of 15.61%: increased the risk, accounting for **11.5%** of the decision's weight.\n- **Home Ownership: Own** (a contributing factor): increased the risk, accounting for **11.0%** of the decision's weight.\n- **Home Ownership: Rent** (a contributing factor): increased the risk, accounting for **10.5%** of the decision's weight.\n- **Home Ownership: Mortgage** (a contributing factor): increased the risk, accounting for **9.6%** of the decision's weight.",
+        "log_timestamp_utc": "2025-08-06T16:39:20.825097"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "<think>\n\nOkay, I need to create a loan decision explanation based on the provided data. Let me start by understanding the information given.\n\nThe decision is \"Rejected,\" so the first thing to communicate is that the loan wasn't approved. The user wants the explanation to be clear, helpful, and reassuring, even though the news is bad. Also, I should avoid technical jargon like SHAP or model, so I need to present the factors in simple terms.\n\nLooking at the key factors:\n\n1. Home Ownership: Mortgage, increases risk, 31.2% weight.\n2. Purpose: Debt consolidation, increases risk, 21.0% weight.\n3. Grade: D, increases risk, 20.1% weight.\n4. Interest Rate: 15.61%, increases risk, 11.5% weight.\n\nEach factor has an impact (\"increases risk\") and a weight percentage. The values are simplified, so I need to translate these into layman's terms. The total risk score is 99.97%, which is very high, leading to rejection. But how to explain each factor's contribution without using terms like SHAP values?\n\nLet me break down each factor:\n\n- Home Ownership being Mortgage: This probably means",
+        "log_timestamp_utc": "2025-08-06T17:09:16.558389"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "<think>\n\nOkay, I need to generate a loan decision explanation based on the provided data. Let me start by understanding the information given.\n\nThe decision is \"Rejected,\" so the user is already aware it's not approved, but the goal is to explain why in a clear and reassuring way. The key factors are Home Ownership, Purpose, Grade, and Interest Rate. Each has an impact that increases risk and their respective weight percentages.\n\nFirst, I should explain each factor in simple terms without technical jargon. Let's take them one by one.\n\nHome Ownership: The value is MORTGAGE, which apparently increases risk. So, maybe having a mortgage indicates higher debt already, which makes the lender see it as riskier. The weight is 31.2%, so it's a major factor.\n\nPurpose: It's for debt consolidation. Hmm, but debt consolidation can sometimes be a positive step if managed well. Wait, but in this case, the system might be flagging it as increasing risk. Maybe because consolidating debt, especially if the applicant still has high balances, could indicate ongoing financial challenges. The weight is 21%, also a significant portion.\n\nGrade: D. I assume this refers to the credit grade or grade of the loan application. A",
+        "log_timestamp_utc": "2025-08-06T17:41:24.010461"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T17:46:10.179968"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T17:59:19.657203"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:01:58.803886"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:05:58.125829"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:09:32.188347"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:12:03.174789"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:14:14.753374"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:14:48.674832"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:16:54.580191"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:17:43.024010"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:20:01.291936"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:21:37.553363"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:23:24.630230"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:25:07.253668"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:25:36.725399"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:27:02.463452"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "We could not generate a detailed explanation at this time due to a technical issue.",
+        "log_timestamp_utc": "2025-08-06T18:40:53.923057"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "A detailed explanation could not be generated because the response was blocked by the content safety filter.",
+        "log_timestamp_utc": "2025-08-06T18:41:23.119016"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "After a careful review of the application, we were unable to approve the request at this time. The primary factor influencing this outcome was the home ownership. Other contributing factors included the purpose, grade. We encourage applicants to strengthen their financial profile for future opportunities.",
+        "log_timestamp_utc": "2025-08-07T00:12:49.413636"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "After a careful review of the application, we were unable to approve the request at this time. The primary factor influencing this outcome was the home ownership. Other contributing factors included the purpose, grade. We encourage applicants to strengthen their financial profile for future opportunities.",
+        "log_timestamp_utc": "2025-08-07T00:36:23.595975"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "After a careful review of the application, we were unable to approve the request at this time. The primary factor influencing this outcome was the home ownership. Other contributing factors included the purpose, grade. We encourage applicants to strengthen their financial profile for future opportunities.",
+        "log_timestamp_utc": "2025-08-07T00:44:04.115685"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**AI Model Recommendation:** NOT APPROVED\n**Confidence Score (Probability of Default):** 99.97%\n\n**Key Drivers Supporting this Recommendation:**\n- **Home Ownership** (Value: MORTGAGE): Accounted for **31.2%** of the model's decision weight.\n- **Purpose** (Value: debt_consolidation): Accounted for **21.0%** of the model's decision weight.\n- **Grade** (Value: D): Accounted for **20.1%** of the model's decision weight.\n\n**Key Mitigating Factors (Opposing Recommendation):**\n- **Employment Length** (Value: 10+ years): Provided a **1.9%** counter-weight to the decision.\n- **Loan Amount** (Value: 18000.0): Provided a **0.1%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-07T00:48:01.028558"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**AI Model Recommendation:** NOT APPROVED\n**Confidence Score (Probability of Default):** 99.97%\n\n**Key Drivers (Factors with a Negative Impact):**\n- **Home Ownership** (Value: MORTGAGE): Accounted for **31.2%** of the model's decision weight.\n- **Purpose** (Value: debt_consolidation): Accounted for **21.0%** of the model's decision weight.\n- **Grade** (Value: D): Accounted for **20.1%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors with a Positive Impact):**\n- **Employment Length** (Value: 10+ years): Provided a **1.9%** counter-weight to the decision.\n- **Loan Amount** (Value: 18000.0): Provided a **0.1%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-07T00:54:03.131236"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**AI Model Recommendation:** NOT APPROVED\n**Confidence Score (Probability of Default):** 99.97%\n\n**Key Drivers (Factors Increasing Credit Risk):**\n- **Home Ownership** (Value: MORTGAGE): Accounted for **31.2%** of the model's decision weight.\n- **Purpose** (Value: debt_consolidation): Accounted for **21.0%** of the model's decision weight.\n- **Grade** (Value: D): Accounted for **20.1%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Decreasing Credit Risk):**\n- **Employment Length** (Value: 10+ years): Provided a **1.9%** counter-weight to the decision.\n- **Loan Amount** (Value: 18000.0): Provided a **0.1%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-07T00:57:22.989170"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 18000.0,
+            "term": "60 months",
+            "int_rate": 15.61,
+            "installment": 434.01,
+            "grade": "D",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 69000.0,
+            "verification_status": "Source Verified",
+            "purpose": "debt_consolidation",
+            "dti": 33.04,
+            "open_acc": 8,
+            "pub_rec": 0,
+            "revol_bal": 9667.0,
+            "revol_util": 31.6,
+            "total_acc": 42
+        },
+        "decision": "Rejected",
+        "risk_score_probability": 0.9996639490127563,
+        "explanation": "**AI Model Recommendation:** NOT APPROVED\n**Confidence Score (Probability of Default):** 99.97%\n\n**Key Drivers (Factors Increasing Credit Risk):**\n- **Home Ownership** (Value: MORTGAGE): Accounted for **31.2%** of the model's decision weight.\n- **Purpose** (Value: debt_consolidation): Accounted for **21.0%** of the model's decision weight.\n- **Grade** (Value: D): Accounted for **20.1%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Decreasing Credit Risk):**\n- **Employment Length** (Value: 10+ years): Provided a **1.9%** counter-weight to the decision.\n- **Loan Amount** (Value: 18000.0): Provided a **0.1%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-07T01:18:56.982299"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 10000.0,
+            "term": "36 months",
+            "int_rate": 11.89,
+            "installment": 331.67,
+            "grade": "B",
+            "emp_length": "7 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 85000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 19.48,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25
+        },
+        "document_extracted": {
+            "verified_income": 93623,
+            "tax_form_type": "W2"
+        },
+        "decision": "Manual Review",
+        "risk_score_probability": 0.3886159658432007,
+        "explanation": "**AI Model Recommendation:** MANUAL REVIEW\n**Confidence Score (Probability of Default):** 38.86%\n\n**Key Drivers (Factors Decreasing Credit Risk):**\n- **Interest Rate** (Value: 12.5): Accounted for **10.0%** of the model's decision weight.\n- **Inq Last 6Mths** (Value: 1): Accounted for **5.5%** of the model's decision weight.\n- **Home Ownership** (Value: MORTGAGE): Accounted for **4.9%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Increasing Credit Risk):**\n- **Debt-to-Income Ratio** (Value: 4.72): Provided a **31.2%** counter-weight to the decision.\n- **Total Acc** (Value: 25): Provided a **11.6%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-12T04:49:29.251508"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 50000.0,
+            "term": "36 months",
+            "int_rate": 11.89,
+            "installment": 331.67,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 85000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 19.48,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25
+        },
+        "document_extracted": {
+            "verified_income": 87052,
+            "tax_form_type": "W2"
+        },
+        "decision": "Manual Review",
+        "risk_score_probability": 0.550079882144928,
+        "explanation": "**AI Model Recommendation:** MANUAL REVIEW\n**Confidence Score (Probability of Default):** 55.01%\n\n**Key Drivers (Factors Decreasing Credit Risk):**\n- **Loan Amount** (Value: 50000.0): Accounted for **25.5%** of the model's decision weight.\n- **Debt-to-Income Ratio** (Value: 23.61): Accounted for **9.7%** of the model's decision weight.\n- **Inq Last 6Mths** (Value: 1): Accounted for **7.8%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Increasing Credit Risk):**\n- **Installment** (Value: 1672.68): Provided a **20.3%** counter-weight to the decision.\n- **Verification Status** (Value: Verified): Provided a **5.0%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-12T05:22:18.717671"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 20000.0,
+            "term": "60 months",
+            "int_rate": 11.89,
+            "installment": 331.67,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 150000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 19.48,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25
+        },
+        "document_extracted": {
+            "verified_income": 87461,
+            "tax_form_type": "W2"
+        },
+        "decision": "Manual Review",
+        "risk_score_probability": 0.489805668592453,
+        "explanation": "**AI Model Recommendation:** MANUAL REVIEW\n**Confidence Score (Probability of Default):** 48.98%\n\n**Key Drivers (Factors Decreasing Credit Risk):**\n- **Loan Amount** (Value: 20000.0): Accounted for **19.8%** of the model's decision weight.\n- **Interest Rate** (Value: 12.5): Accounted for **7.9%** of the model's decision weight.\n- **Annual Income** (Value: 150000.0): Accounted for **5.2%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Increasing Credit Risk):**\n- **Debt-to-Income Ratio** (Value: 3.6): Provided a **19.8%** counter-weight to the decision.\n- **Revol Bal** (Value: 40000): Provided a **11.2%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-12T05:34:39.220469"
+    },
+    {
+        "loan_application": {
+            "loan_amnt": 70000.0,
+            "term": "60 months",
+            "int_rate": 11.89,
+            "installment": 331.67,
+            "grade": "B",
+            "emp_length": "2 years",
+            "home_ownership": "RENT",
+            "annual_inc": 40000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 19.48,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25
+        },
+        "document_extracted": {
+            "verified_income": 85423,
+            "tax_form_type": "W2"
+        },
+        "decision": "Approved",
+        "risk_score_probability": 0.14825816452503204,
+        "explanation": "**AI Model Recommendation:** APPROVED\n**Confidence Score (Probability of Default):** 14.83%\n\n**Key Drivers (Factors Decreasing Credit Risk):**\n- **Interest Rate** (Value: 12.5): Accounted for **5.4%** of the model's decision weight.\n- **Verification Status** (Value: Not Verified): Accounted for **4.9%** of the model's decision weight.\n- **Revolving Utilization** (Value: 55): Accounted for **3.8%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Increasing Credit Risk):**\n- **Debt-to-Income Ratio** (Value: 47.25): Provided a **47.2%** counter-weight to the decision.\n- **Revol Bal** (Value: 15000): Provided a **11.7%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-12T05:37:30.225485"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "9876",
+            "loan_amnt": 40000.0,
+            "term": "36 months",
+            "int_rate": 12.5,
+            "installment": 1338.15,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 85000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 18.89,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 780,
+            "fico_range_high": 784,
+            "inquiries_6m": 0,
+            "revolving_balance": 5200.0,
+            "revolving_utilization": 22.5,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 35,
+            "verified_income": 88031,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.496381551027298,
+        "explanation": "**AI Model Recommendation:** MANUAL REVIEW\n**Confidence Score (Probability of Default):** 49.64%\n\n**Key Drivers (Factors Decreasing Credit Risk):**\n- **Loan Amount** (Value: 40000.0): Accounted for **23.5%** of the model's decision weight.\n- **Debt-to-Income Ratio** (Value: 18.89): Accounted for **8.8%** of the model's decision weight.\n- **Total Acc** (Value: 25): Accounted for **5.4%** of the model's decision weight.\n\n**Key Mitigating Factors (Factors Increasing Credit Risk):**\n- **FICO Score** (Value: 780): Provided a **16.6%** counter-weight to the decision.\n- **Inquiries Last 6 Months** (Value: N/A): Provided a **8.2%** counter-weight to the decision.\n\n**Action:** Proceed with final underwriting review.",
+        "log_timestamp_utc": "2025-08-12T23:15:52.556834"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 40000.0,
+            "term": "36 months",
+            "int_rate": 12.5,
+            "installment": 1338.15,
+            "grade": "B",
+            "emp_length": "7 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 13.38,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 85384,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.3901371955871582,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.3901371955871582,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "40000.0",
+                    "impact": 21.1
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "120000.0",
+                    "impact": 6.6
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "12.5",
+                    "impact": 5.3
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 14.1
+                },
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "13.38",
+                    "impact": 11.0
+                },
+                {
+                    "factor": "Installment",
+                    "value": "1338.15",
+                    "impact": 10.1
+                }
+            ],
+            "summary": "The AI recommendation is based on a comprehensive analysis of the applicant's financial profile."
+        },
+        "log_timestamp_utc": "2025-08-12T23:43:03.168115"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 40000.0,
+            "term": "36 months",
+            "int_rate": 12.5,
+            "installment": 1338.15,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 13.38,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 83448,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.5740833282470703,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.5740833282470703,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "40000.0",
+                    "impact": 24.4
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 18.9
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "120000.0",
+                    "impact": 7.4
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "13.38",
+                    "impact": 16.2
+                },
+                {
+                    "factor": "Inquiries Last 6 Months",
+                    "value": "N/A",
+                    "impact": 9.7
+                },
+                {
+                    "factor": "Installment",
+                    "value": "1338.15",
+                    "impact": 6.9
+                }
+            ],
+            "summary": "The AI recommendation is based on a comprehensive analysis of the applicant's financial profile."
+        },
+        "log_timestamp_utc": "2025-08-12T23:47:58.317948"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 40000.0,
+            "term": "36 months",
+            "int_rate": 12.5,
+            "installment": 1338.15,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 119998.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 13.38,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 93901,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.4050543010234833,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.4050543010234833,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "40000.0",
+                    "impact": 21.3
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "119998.0",
+                    "impact": 6.8
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "12.5",
+                    "impact": 5.3
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 14.0
+                },
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "13.38",
+                    "impact": 11.1
+                },
+                {
+                    "factor": "Installment",
+                    "value": "1338.15",
+                    "impact": 10.1
+                }
+            ],
+            "summary": "The AI recommendation is based on a comprehensive analysis of the applicant's financial profile."
+        },
+        "log_timestamp_utc": "2025-08-12T23:53:20.286537"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 40000.0,
+            "term": "60 months",
+            "int_rate": 12.5,
+            "installment": 899.92,
+            "grade": "B",
+            "emp_length": "7 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 100000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 10.8,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 88622,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Approved",
+        "risk_score_probability": 0.33603790402412415,
+        "explanation": {
+            "decision": "Approved",
+            "risk_score": 0.33603790402412415,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "40000.0",
+                    "impact": 9.5
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "12.5",
+                    "impact": 8.3
+                },
+                {
+                    "factor": "Purpose",
+                    "value": "debt_consolidation",
+                    "impact": 2.5
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 18.2
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 12.7
+                },
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "10.8",
+                    "impact": 12.1
+                }
+            ],
+            "summary": "The AI recommendation is based on a comprehensive analysis of the applicant's financial profile."
+        },
+        "log_timestamp_utc": "2025-08-13T00:16:39.807871"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 40000.0,
+            "term": "60 months",
+            "int_rate": 12.5,
+            "installment": 899.92,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 9.0,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 84192,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Approved",
+        "risk_score_probability": 0.3894689679145813,
+        "explanation": {
+            "decision": "Approved",
+            "risk_score": 0.3894689679145813,
+            "error": "An error occurred while building the final explanation."
+        },
+        "log_timestamp_utc": "2025-08-13T00:40:20.408303"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 10000.0,
+            "term": "36 months",
+            "int_rate": 12.5,
+            "installment": 334.54,
+            "grade": "B",
+            "emp_length": "< 1 year",
+            "home_ownership": "RENT",
+            "annual_inc": 2500.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 160.58,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 85321
+        },
+        "document_extracted": {},
+        "decision": "Approved",
+        "risk_score_probability": 0.1060728132724762,
+        "explanation": {
+            "decision": "Approved",
+            "risk_score": 0.1060728132724762,
+            "positive_factors": [
+                {
+                    "factor": "Home Ownership",
+                    "value": "RENT",
+                    "impact": 4.9844660926544
+                },
+                {
+                    "factor": "Employment Length",
+                    "value": "< 1 year",
+                    "impact": 4.801541405022141
+                },
+                {
+                    "factor": "Loan Amount",
+                    "value": "10000.0",
+                    "impact": 4.667666777038394
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "160.58",
+                    "impact": 30.809301054146786
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "2500.0",
+                    "impact": 26.93636747374224
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 7.270166335914011
+                }
+            ],
+            "summary": "The AI model recommends **APPROVED** with a calculated default risk of **10.61%**. The decision was primarily driven by strong positive credit factors that significantly outweigh the risks. The most significant factor was the applicant's **debt-to-income ratio** (value: 160.58), which accounted for 30.8% of the decision weight. This was balanced by the **home ownership** (value: RENT), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T00:44:45.337048"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 40000.0,
+            "term": "60 months",
+            "int_rate": 14,
+            "installment": 930.73,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 9.31,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 93564,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.617699921131134,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.617699921131134,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 20.423083387008294
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 19.340047450601308
+                },
+                {
+                    "factor": "Installment",
+                    "value": "930.73",
+                    "impact": 10.029908089673526
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "9.31",
+                    "impact": 16.837366357908216
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 5.7576237458379005
+                },
+                {
+                    "factor": "Inquiries Last 6 Months",
+                    "value": "N/A",
+                    "impact": 3.778330345131814
+                }
+            ],
+            "summary": "The AI model recommends **MANUAL REVIEW** with a calculated default risk of **61.77%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards rejection, but strong mitigating factors prevent a fully automated decision. The most significant factor was the applicant's **interest rate** (value: 14), which accounted for 20.4% of the decision weight. This was balanced by the **debt-to-income ratio** (value: 9.31), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T00:47:45.039083"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 70000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 2392.43,
+            "grade": "B",
+            "emp_length": "10+ years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 150000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 19.14,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 84699,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Rejected",
+        "risk_score_probability": 0.7371878027915955,
+        "explanation": {
+            "decision": "Rejected",
+            "risk_score": 0.7371878027915955,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "70000.0",
+                    "impact": 24.617313801853268
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 16.31194963061791
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 12.855950509984485
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Inquiries Last 6 Months",
+                    "value": "N/A",
+                    "impact": 7.835918737303964
+                },
+                {
+                    "factor": "Home Ownership",
+                    "value": "MORTGAGE",
+                    "impact": 2.336929772690565
+                },
+                {
+                    "factor": "Pub Rec Bankruptcies",
+                    "value": "N/A",
+                    "impact": 0.9589933781919049
+                }
+            ],
+            "summary": "The AI model recommends **REJECTED** with a calculated default risk of **73.72%**. The decision was primarily driven by several high-risk factors that indicate a significant probability of default. The most significant factor was the applicant's **loan amount** (value: 70000.0), which accounted for 24.6% of the decision weight. This was balanced by the **inquiries last 6 months** (value: N/A), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T01:16:41.686092"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 10000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 341.78,
+            "grade": "B",
+            "emp_length": "8 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 150000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 2.73,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 80262,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.4584179222583771,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.4584179222583771,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 14.999732940331805
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 12.599695520406092
+                },
+                {
+                    "factor": "Home Ownership",
+                    "value": "MORTGAGE",
+                    "impact": 8.025799713793292
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "2.73",
+                    "impact": 35.65691986152928
+                },
+                {
+                    "factor": "Total Acc",
+                    "value": "25",
+                    "impact": 7.732858509654257
+                },
+                {
+                    "factor": "Inquiries Last 6 Months",
+                    "value": "N/A",
+                    "impact": 4.252263287700106
+                }
+            ],
+            "summary": "The AI model recommends **MANUAL REVIEW** with a calculated default risk of **45.84%**. The decision was primarily driven by several high-risk factors that indicate a significant probability of default. The most significant factor was the applicant's **interest rate** (value: 14), which accounted for 15.0% of the decision weight. This was balanced by the **debt-to-income ratio** (value: 2.73), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T01:29:52.044984"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 20000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 683.55,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 150000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 5.47,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 91990,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.3132350444793701,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.3132350444793701,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "20000.0",
+                    "impact": 15.484142145854324
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 10.07411399800596
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "150000.0",
+                    "impact": 2.845880597651602
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 17.900010528031096
+                },
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "5.47",
+                    "impact": 17.781654234751514
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 6.810952124327107
+                }
+            ],
+            "summary": "The AI model recommends **MANUAL REVIEW** with a calculated default risk of **31.32%**. The decision was primarily driven by several high-risk factors that indicate a significant probability of default. The most significant factor was the applicant's **loan amount** (value: 20000.0), which accounted for 15.5% of the decision weight. This was balanced by the **fico score** (value: 720), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T13:53:47.637393"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 10000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 341.78,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "RENT",
+            "annual_inc": 99998.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 4.1,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 93147
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.4422002136707306,
+        "explanation": {
+            "decision": "Manual Review",
+            "risk_score": 0.4422002136707306,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 16.88232736270434
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 12.687494958866136
+                },
+                {
+                    "factor": "Home Ownership",
+                    "value": "RENT",
+                    "impact": 8.436460484923716
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "4.1",
+                    "impact": 29.840928572894477
+                },
+                {
+                    "factor": "Total Acc",
+                    "value": "25",
+                    "impact": 6.031136649121904
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "99998.0",
+                    "impact": 5.439342833686058
+                }
+            ],
+            "summary": "The AI model recommends **MANUAL REVIEW** with a calculated default risk of **44.22%**. The decision was primarily driven by several high-risk factors that indicate a significant probability of default. The most significant factor was the applicant's **interest rate** (value: 14), which accounted for 16.9% of the decision weight. This was balanced by the **debt-to-income ratio** (value: 4.1), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T14:12:03.718833"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "5678",
+            "loan_amnt": 50000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 1708.88,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 100000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 20.51,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 650,
+            "fico_range_high": 654,
+            "inquiries_6m": 4,
+            "revolving_balance": 8500.0,
+            "revolving_utilization": 75.1,
+            "delinquencies_2y": 1,
+            "public_record_bankruptcies": 1,
+            "total_accounts": 15,
+            "verified_income": 84805
+        },
+        "document_extracted": {},
+        "decision": "Rejected",
+        "risk_score_probability": 0.7548248767852783,
+        "explanation": {
+            "decision": "Rejected",
+            "recommendation_label": "Rejected",
+            "risk_score": 0.7548248767852783,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "50000.0",
+                    "impact": 26.78242373712608
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "650",
+                    "impact": 19.432873190247744
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 18.17107588062897
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Inquiries Last 6 Months",
+                    "value": "N/A",
+                    "impact": 7.678184182911921
+                },
+                {
+                    "factor": "Installment",
+                    "value": "1708.88",
+                    "impact": 2.0673495418243544
+                },
+                {
+                    "factor": "Verification Status",
+                    "value": "Verified",
+                    "impact": 0.4174777561316254
+                }
+            ],
+            "summary": "The AI model's final recommendation is **REJECTED** with a calculated default risk of **75.48%**. The decision was primarily driven by several high-risk factors that indicate a significant probability of default. The most significant factor was the applicant's **loan amount** (value: 50000.0), which accounted for 26.8% of the decision weight. This was balanced by the **inquiries last 6 months** (value: N/A), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T14:17:49.722076"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 10000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 341.78,
+            "grade": "B",
+            "emp_length": "7 years",
+            "home_ownership": "RENT",
+            "annual_inc": 85000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 4.83,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 94492
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.34854748845100403,
+        "explanation": {
+            "decision": "Manual Review",
+            "recommendation_label": "Leaning Approve",
+            "risk_score": 0.34854748845100403,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 19.402241098663165
+                },
+                {
+                    "factor": "Home Ownership",
+                    "value": "RENT",
+                    "impact": 3.540079297536568
+                },
+                {
+                    "factor": "Loan Amount",
+                    "value": "10000.0",
+                    "impact": 2.2656018986762283
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "4.83",
+                    "impact": 21.729996322582444
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 11.339635490562339
+                },
+                {
+                    "factor": "Installment",
+                    "value": "341.78",
+                    "impact": 8.529813322023474
+                }
+            ],
+            "summary": "The AI model's final recommendation is **LEANING APPROVE** with a calculated default risk of **34.85%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards approval, but key risk factors prevent a fully automated decision. The most significant factor was the applicant's **debt-to-income ratio** (value: 4.83), which accounted for 21.7% of the decision weight. This was balanced by the **interest rate** (value: 14), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T14:28:45.467343"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 30000.0,
+            "term": "60 months",
+            "int_rate": 14,
+            "installment": 698.05,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 100000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 8.38,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 80180,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.4054622948169708,
+        "explanation": {
+            "decision": "Manual Review",
+            "recommendation_label": "Leaning Approve",
+            "risk_score": 0.4054622948169708,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 19.164624712469834
+                },
+                {
+                    "factor": "Loan Amount",
+                    "value": "30000.0",
+                    "impact": 12.724551991337963
+                },
+                {
+                    "factor": "Purpose",
+                    "value": "debt_consolidation",
+                    "impact": 2.4576556906340747
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 15.118540214808702
+                },
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "8.38",
+                    "impact": 13.818882624657219
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 11.014699665806985
+                }
+            ],
+            "summary": "The AI model's final recommendation is **LEANING APPROVE** with a calculated default risk of **40.55%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards approval, but key risk factors prevent a fully automated decision. The most significant factor was the applicant's **fico score** (value: 720), which accounted for 15.1% of the decision weight. This was balanced by the **interest rate** (value: 14), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T16:52:24.219619"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 30000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 1025.33,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 119997.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 10.25,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 80838,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.3709825277328491,
+        "explanation": {
+            "decision": "Manual Review",
+            "recommendation_label": "Leaning Approve",
+            "risk_score": 0.3709825277328491,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 18.85350620818737
+                },
+                {
+                    "factor": "Loan Amount",
+                    "value": "30000.0",
+                    "impact": 9.318167094594704
+                },
+                {
+                    "factor": "Purpose",
+                    "value": "debt_consolidation",
+                    "impact": 2.3883794917726133
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "10.25",
+                    "impact": 17.639213166229077
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 16.919351229975714
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 10.960965944106926
+                }
+            ],
+            "summary": "The AI model's final recommendation is **LEANING APPROVE** with a calculated default risk of **37.10%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards approval, but key risk factors prevent a fully automated decision. The most significant factor was the applicant's **debt-to-income ratio** (value: 10.25), which accounted for 17.6% of the decision weight. This was balanced by the **interest rate** (value: 14), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T17:44:15.240104"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 20000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 683.55,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 6.84,
+            "open_acc": 10,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 83522,
+            "tax_form_type": "W2"
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.4247281551361084,
+        "explanation": {
+            "decision": "Manual Review",
+            "recommendation_label": "Leaning Approve",
+            "risk_score": 0.4247281551361084,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "20000.0",
+                    "impact": 18.861785526056558
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 15.28661754833505
+                },
+                {
+                    "factor": "Employment Length",
+                    "value": "5 years",
+                    "impact": 3.466797094432544
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "6.84",
+                    "impact": 21.478180190467903
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 11.505046309596345
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 7.268705491728952
+                }
+            ],
+            "summary": "The AI model's final recommendation is **LEANING APPROVE** with a calculated default risk of **42.47%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards approval, but key risk factors prevent a fully automated decision. The most significant factor was the applicant's **debt-to-income ratio** (value: 6.84), which accounted for 21.5% of the decision weight. This was balanced by the **loan amount** (value: 20000.0), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T17:46:07.476377"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 50000.0,
+            "term": "60 months",
+            "int_rate": 14,
+            "installment": 1163.41,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 110000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 18.15,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "applicant_name": "John",
+            "dob": "1992-08-10",
+            "address_street": "83 Morgan St",
+            "address_apt": "APT 6J",
+            "address_city": "Stamford",
+            "address_county": "Fairfield",
+            "address_state": "Connecticut",
+            "address_zip": "06905",
+            "employment_status": "Employed",
+            "employer": "Infosys",
+            "employer_address": "Stamford",
+            "existing_monthly_debt": 500.0,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 81159,
+            "tax_form_type": "W2",
+            "open_acc": 0
+        },
+        "document_extracted": {},
+        "decision": "Manual Review",
+        "risk_score_probability": 0.5112089514732361,
+        "explanation": {
+            "decision": "Manual Review",
+            "recommendation_label": "Leaning Decline",
+            "risk_score": 0.5112089514732361,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "50000.0",
+                    "impact": 25.039428808112007
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 16.013213784507922
+                },
+                {
+                    "factor": "Revol Bal",
+                    "value": "15686.0",
+                    "impact": 3.932563053576865
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 17.34198373536472
+                },
+                {
+                    "factor": "Verification Status",
+                    "value": "Verified",
+                    "impact": 8.660187327805511
+                },
+                {
+                    "factor": "Installment",
+                    "value": "1163.41",
+                    "impact": 7.951633505591217
+                }
+            ],
+            "summary": "The AI model's final recommendation is **LEANING DECLINE** with a calculated default risk of **51.12%**. The risk score falls into a moderate range, indicating a mix of positive and negative factors that require underwriter attention. The model leans towards rejection, but strong mitigating factors prevent a fully automated decision. The most significant factor was the applicant's **loan amount** (value: 50000.0), which accounted for 25.0% of the decision weight. This was balanced by the **fico score** (value: 720), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T17:56:27.191286"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 70000.0,
+            "term": "36 months",
+            "int_rate": 14,
+            "installment": 2392.43,
+            "grade": "B",
+            "emp_length": "5 years",
+            "home_ownership": "RENT",
+            "annual_inc": 85000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 40.83,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "applicant_name": "Sam",
+            "dob": "1989-06-15",
+            "address_street": "95 Morgan St",
+            "address_apt": "APT 4J",
+            "address_city": "Stamford",
+            "address_county": "Fairfield",
+            "address_state": "Connecticut",
+            "address_zip": "06905",
+            "employment_status": "Employed",
+            "employer": "ABC Corporation",
+            "employer_address": "Stamford",
+            "existing_monthly_debt": 500.0,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 86491,
+            "tax_form_type": "W2",
+            "open_acc": 0
+        },
+        "document_extracted": {},
+        "decision": "Approved",
+        "risk_score_probability": 0.21712183952331543,
+        "explanation": {
+            "decision": "Approved",
+            "recommendation_label": "Approved",
+            "risk_score": 0.21712183952331543,
+            "positive_factors": [
+                {
+                    "factor": "Loan Amount",
+                    "value": "70000.0",
+                    "impact": 10.103313126607304
+                },
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 5.53958123373131
+                },
+                {
+                    "factor": "Annual Income",
+                    "value": "85000.0",
+                    "impact": 2.607653220658262
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "40.83",
+                    "impact": 35.352246649546125
+                },
+                {
+                    "factor": "Installment",
+                    "value": "2392.43",
+                    "impact": 17.005002154018797
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 12.201575541977952
+                }
+            ],
+            "summary": "The AI model's final recommendation is **APPROVED** with a calculated default risk of **21.71%**. The decision was primarily driven by strong positive credit factors that significantly outweigh the risks. The most significant factor was the applicant's **debt-to-income ratio** (value: 40.83), which accounted for 35.4% of the decision weight. This was balanced by the **loan amount** (value: 70000.0), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-13T17:58:26.242665"
+    },
+    {
+        "loan_application": {
+            "ssn_last4": "1234",
+            "loan_amnt": 40000.0,
+            "term": "60 months",
+            "int_rate": 14,
+            "installment": 930.73,
+            "grade": "B",
+            "emp_length": "6 years",
+            "home_ownership": "MORTGAGE",
+            "annual_inc": 120000.0,
+            "verification_status": "Verified",
+            "purpose": "debt_consolidation",
+            "dti": 14.31,
+            "pub_rec": 0,
+            "revol_bal": 15686.0,
+            "revol_util": 58.3,
+            "total_acc": 25,
+            "applicant_name": "John",
+            "dob": "1994-07-14",
+            "address_street": "83 Morgan St",
+            "address_apt": "APT 6J",
+            "address_city": "Stamford",
+            "address_county": "Fairfield",
+            "address_state": "Connecticut",
+            "address_zip": "06905",
+            "employment_status": "Employed",
+            "employer": "Infosys",
+            "employer_address": "Stamford",
+            "existing_monthly_debt": 500.0,
+            "fico_range_low": 720,
+            "fico_range_high": 724,
+            "inquiries_6m": 1,
+            "revolving_balance": 15686.0,
+            "revolving_utilization": 58.3,
+            "delinquencies_2y": 0,
+            "public_record_bankruptcies": 0,
+            "total_accounts": 25,
+            "verified_income": 88706,
+            "tax_form_type": "W2",
+            "open_acc": 0
+        },
+        "document_extracted": {},
+        "decision": "Approved",
+        "risk_score_probability": 0.24007730185985565,
+        "explanation": {
+            "decision": "Approved",
+            "recommendation_label": "Approved",
+            "risk_score": 0.24007730185985565,
+            "positive_factors": [
+                {
+                    "factor": "Interest Rate",
+                    "value": "14",
+                    "impact": 15.502086606405383
+                },
+                {
+                    "factor": "Purpose",
+                    "value": "debt_consolidation",
+                    "impact": 1.0856586202574936
+                },
+                {
+                    "factor": "Delinq 2Yrs",
+                    "value": "N/A",
+                    "impact": 0.9546975653939367
+                }
+            ],
+            "negative_factors": [
+                {
+                    "factor": "Debt-to-Income Ratio",
+                    "value": "14.31",
+                    "impact": 25.639412221662848
+                },
+                {
+                    "factor": "FICO Score",
+                    "value": "720",
+                    "impact": 12.612002034741602
+                },
+                {
+                    "factor": "Revolving Utilization",
+                    "value": "58.3",
+                    "impact": 9.846657486742128
+                }
+            ],
+            "summary": "The AI model's final recommendation is **APPROVED** with a calculated default risk of **24.01%**. The decision was primarily driven by strong positive credit factors that significantly outweigh the risks. The most significant factor was the applicant's **debt-to-income ratio** (value: 14.31), which accounted for 25.6% of the decision weight. This was balanced by the **interest rate** (value: 14), which provided a strong counter-weight. Please review the detailed factor analysis and applicant data before making a final decision."
+        },
+        "log_timestamp_utc": "2025-08-14T00:06:06.323354"
+    }
+]
