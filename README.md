@@ -74,7 +74,7 @@ A running PostgreSQL instance.
 Bash
 
 ## Clone the repository
-git clone [[your-repo-url](https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git)]
+git clone [https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git]
 cd AI_Retail_Loan_System
 
 ### Create and activate a virtual environment
