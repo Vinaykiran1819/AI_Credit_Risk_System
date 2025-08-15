@@ -75,44 +75,60 @@ Bash
 
 ## Clone the repository
 ```
-git clone [https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git]
+git clone https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git
 cd AI_Retail_Loan_System
 ```
 
 ### Create and activate a virtual environment
+```
 python -m venv .venv
 source .venv/bin/activate # On Windows, use: .venv\Scripts\activate
+```
 
 Create your .env file
 Copy the contents of .env.example into a new file named .env
 and fill in your PostgreSQL and Azure Blob Storage connection strings.
 
 ### Install Python dependencies
+```
 pip install -r requirements.txt
+```
 
 ### Train the ML model (this only needs to be run once)
+```
 python -m agents.risk_scoring.train
+```
 
 ### Seed the mock credit bureau database (this only needs to be run once)
+```
 python seed_db.py
+```
 
 ### Run the backend server
+```
 uvicorn api:api --reload
+```
 The backend will now be running at http://127.0.0.1:8000.
 
 ## 2. Frontend Setup
 Bash
 
- Open a new, separate terminal
+Open a new, separate terminal
 
 ### Navigate to the frontend directory
+```
 cd frontend
+```
 
 ### Install Node.js dependencies
+```
 npm install
+```
 
 ### Run the frontend development server
+```
 npm run dev
+```
 The frontend will now be running at http://localhost:5173. You can open this URL in your browser to use the application.
 
 ## Future Enhancements
