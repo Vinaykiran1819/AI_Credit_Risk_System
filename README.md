@@ -73,6 +73,10 @@ A running PostgreSQL instance.
 ## 1. Backend Setup
 Bash
 
+```bash
+pip install foobar
+```
+
 ## Clone the repository
 git clone [https://github.com/VinayKiranFundae13/AI-Retail-Loan-System.git]
 cd AI_Retail_Loan_System
