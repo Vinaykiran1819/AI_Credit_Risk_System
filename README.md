@@ -19,9 +19,17 @@ The application orchestrates a workflow of specialized AI agents to ingest custo
 ### Customer Application Form
 A clean, multi-step interface guides the customer through the application process.
 
-![Loan Application](Snaps/Personal_Details.png)
+<table align="center">
+  <tr>
+    <td><img src="Snaps/Personal_Details.png" width="400"></td>
+    <td><img src="Snaps/Employment&Income.png" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="Snaps/Loan_Details.png" width="400"></td>
+    <td><img src="Snaps/Upload_docs.png" width="400"></td>
+  </tr>
+</table>
 
-(INSERT YOUR SCREENSHOT OF THE CUSTOMER APPLICATION FORM HERE)
 
 ### Underwriter Dashboard
 The final analysis is presented in a professional dashboard with a risk gauge, factor analysis charts, and a detailed AI-generated narrative.
@@ -30,7 +38,12 @@ The final analysis is presented in a professional dashboard with a risk gauge, f
 
 #### AI Recommendation for Loan Application
 
-![AI Recommendation for Loan Application](https://github.com/Vinaykiran1819/AI_Credit_Risk_System/blob/main/Snaps/Dashboard%201.png)
+<table align="center">
+  <tr>
+    <td><img src="Snaps/Dashboard 1.png" width="400"></td>
+    <td><img src="Snaps/Dashboard 2.png" width="400"></td>
+  </tr>
+</table>
 
 
 ## System Architecture
