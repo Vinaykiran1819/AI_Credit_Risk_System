@@ -19,12 +19,19 @@ The application orchestrates a workflow of specialized AI agents to ingest custo
 ### Customer Application Form
 A clean, multi-step interface guides the customer through the application process.
 
+![Loan Application](Snaps/Personal_Details.png)
+
 (INSERT YOUR SCREENSHOT OF THE CUSTOMER APPLICATION FORM HERE)
 
 ### Underwriter Dashboard
 The final analysis is presented in a professional dashboard with a risk gauge, factor analysis charts, and a detailed AI-generated narrative.
 
-(INSERT YOUR SCREENSHOT OF THE FINAL, POLISHED UNDERWRITER DASHBOARD HERE)
+![Underwriter Dashboard](Snaps/Underwriter_UI.png)
+
+#### AI Recommendation for Loan Application
+
+![AI Recommendation for Loan Application](https://github.com/Vinaykiran1819/AI_Credit_Risk_System/blob/main/Snaps/Dashboard%201.png)
+
 
 ## System Architecture
 The application is built on a robust, three-tier architecture that separates concerns for scalability and maintainability.
